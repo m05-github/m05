@@ -1,5 +1,5 @@
 <?php
-
+hola error
 header("Content-type:application/json");
 session_start();
 if (empty($_SESSION['bd']['centros'])) {
