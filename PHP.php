@@ -47,7 +47,7 @@ switch ($verbo) {
         $datos = file_get_contents("php://input");
         $centro = json_decode($datos);
         if ($funcion == "masiva") {
-            for ($i = 0; $i < 20; $i++) {
+            for ($i = 0; $i < 20; $i++)ddddss {
                 foreach ($centro as $nombre) {
                     $_SESSION['bd'][$tabla][] = $nombre;
                 }
